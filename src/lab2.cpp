@@ -9,13 +9,13 @@
 bool problem1() {
     int testInt;
     cout << "Please enter an integer: ";
-    cin >> testInt;
+    cin >> testInt; 
     if (testInt % 2 == 1) {
         cout << "The integer is odd." << endl; // endl is the same as "\n" << flush;
         return true;
     }
     else {
-        cout << "The integer is even." << endl;
+        cout << "This integer is even." << endl;
         return false;
     }
 }
